@@ -29,7 +29,7 @@ namespace p4lab9
             _database = new FakeDB();
         }
 
-        private void RegisterControl_RegisterAttempt( object sender, RegisterEventArgs e)
+        private void RegisterControl_RegisterAttempt(object sender, RegisterEventArgs e)
         {
             Model.RegistrationModel.Name = e.Name;
             Model.RegistrationModel.Password = e.Password;
